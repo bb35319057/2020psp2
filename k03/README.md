@@ -67,6 +67,15 @@ int main(int argc, char* argv[])
 
 ## ソースコードの説明
 
+l.22 sscanfでmu,sigma,num_dummyを読み込む
+
+l.36 for文でiが1～num_dummyまで繰り返す
+
+l.38 dummy=y*σ+μを計算
+
+l.39 dummyを出力
+
+
 ## 入出力結果
 
 以下は例です． コンパイルするときに`-DCONST_SEED`をつけるとこうなります．
@@ -86,6 +95,16 @@ Num of dummy data: 5
 
 コンパイル時に`-DCONST_SEED`をつけない場合を以下に示す．
 
+============================================
+template mean: 170.8
+template standard deviation: 5.43
+Num of dummy data: 5
+============================================
+168.30
+176.02
+156.99
+169.01
+172.93
 
 
 ## 修正履歴
