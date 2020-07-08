@@ -1,6 +1,6 @@
 # 課題1 レポート
 
-aa83988848 薗田光太郎
+bb35319057 吉田 龍生
 
 ## 課題
 
@@ -32,17 +32,49 @@ aa83988848 薗田光太郎
 
 ## ソースコードの説明
 
-あいうえお
+l.23: データファイル名を入力させ，fnameに格納
+
+l.24: 入力させた文字列の最後にエンターキーが入っているので，fnameの文字列の最後をヌル文字'\0'に置換
+
+l.25: fnameを確認
+
+l.27: fnameで指定したファイルの先頭アドレスをファイルポインタ fp に読み込む
+
+l.28: もしfpがNULLだったときは，ファイルを開けなかったので，即座にプログラム終了
+
+l.32: ファイルを1行ずつbufに読み込む．もし読み込み成功する限り以下を繰り返す
+
+l.33: bufからscanfで数値文字列を実数としてvalに読み込む
+
+l.35: var,square_ave,aveにそれぞれ後に定義する関数を代入
+
+1.40: u2に以下の計算式を代入
+
+1.42: 標本平均aveを出力
+
+1.42: 標本分散varを出力
+
+1.42: 母集団平均を出力
+
+1.42: 母集団分散を出力
+
+l.47: ファイルを閉じる．閉じれないときは，即座にプログラム終了．
+
+1.54: double型の関数ave_onlineを定義
+
+1.59: double型の関数var_onlineを定義
+
 
 ## 入出力結果
 
 ```
 input the filename of sample:../sample/heights_male.csv
 the filename of sample: ../sample/heights_male.csv
-sample mean：
-sample variance：
-population mean (estimated)：
-population variance (estimated)：
+sample mean：173.89
+sample variance：25.36
+population mean (estimated)：173.89±1.90
+population variance (estimated)：28.98
+
 ```
 
 ## 修正履歴
