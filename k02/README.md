@@ -1,6 +1,6 @@
 # 課題2 レポート
 
-aa83988848 薗田光太郎
+bb35319057 吉田 龍生
 
 ## 課題
 
@@ -21,11 +21,19 @@ aa83988848 薗田光太郎
 
 ## ソースコードの説明
 
+l.30 yaとybをそれぞれx-μ/σとして値を入れ定義
+
+l,32 L_AをL_Aとyaの標準正規分布の確率関数との積として代入
+
+
 ## 入出力結果
 
 ```
-Likelihood for A：
-Likelihood for B：
+input the filename of sample:../sample/heights_male.csv
+the filename of sample: ../sample/heights_male.csv
+L_A: 0.000006
+L_B: 0.000002
+
 ```
 
 ## 修正履歴
