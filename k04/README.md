@@ -12,6 +12,28 @@ aa83988848 薗田光太郎
 
 ## ソースコードの説明
 
+l.6 int型のgender,ID double型のheightからなる構造体Dataを定義
+
+l.15 14個の配列を宣言
+
+l.33　ファイル名を尋ね、もしファイルが開けたなら数が読み込めなくなるまで以下を繰り返す
+
+l.38 sscanfで読み取った一つ目の値をgenderへ、
+二つ目の値をheightへ格納
+
+l.57 もう一つファイル名を尋ね、ファイルが開けたなら数が読み込めなくなるまで以下を繰り返す
+
+l.58 sscanfで読み取った値をIDへ格納
+
+l.66 IDを尋ね、int型のflagを0とし、以下を繰り返す
+
+l.71 入力されたIDと格納しているIDを一つずつ比較し、等しかったらflagを1として、そのIDを出力。
+同じ番号のgenderの値が1ならば"male"と出力、そうでなければ"female"と出力。
+同じ番号のheightの値を出力する。
+
+l.83 もしflagが0なら、"NO data"と出力
+
+
 
 ## 入出力結果
 
@@ -37,5 +59,28 @@ Which ID's data do you want? : 45313124
 No data
 ```
 
+↓ここから
+
+input the filename of sample:../sample/heights.csv
+the filename of sample: ../sample/heights.csv
+input the filename of sample:../sample/IDs.csv
+the filename of sample: ../sample/IDs.csv
+Which ID's data do you want? :45313001
+---
+ID : 45313001
+gender : male
+height : 166.90
+...
+例えば，ID 45313210のデータを調べたいとき，
+
+input the filename of sample:../sample/heights.csv
+the filename of sample: ../sample/heights.csv
+input the filename of sample:../sample/IDs.csv
+the filename of sample: ../sample/IDs.csv
+Which ID's data do you want? :45313210
+---
+No data
+...
+↑ここまで
 ## 修正履歴
 
