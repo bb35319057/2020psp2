@@ -94,3 +94,6 @@ population variance (estimated)：28.98
 
 [comment #20200714]
 - 修正の指示、アドバイス等は特にありません。引き続き先生に提出をお願いします。
+
+[comment #20200716 sonoda]
+- 課題1の完了を確認しました．
