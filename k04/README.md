@@ -61,6 +61,7 @@ No data
 
 ↓ここから
 
+```
 input the filename of sample:../sample/heights.csv
 the filename of sample: ../sample/heights.csv
 input the filename of sample:../sample/IDs.csv
@@ -70,9 +71,9 @@ Which ID's data do you want? :45313001
 ID : 45313001
 gender : male
 height : 166.90
-...
+```
 例えば，ID 45313210のデータを調べたいとき，
-
+```
 input the filename of sample:../sample/heights.csv
 the filename of sample: ../sample/heights.csv
 input the filename of sample:../sample/IDs.csv
@@ -80,7 +81,7 @@ the filename of sample: ../sample/IDs.csv
 Which ID's data do you want? :45313210
 ---
 No data
-...
+```
 ↑ここまで
 ## 修正履歴
 [comment #20200721]
@@ -88,3 +89,6 @@ No data
 
 [comment #20200728]
 - 修正の指示、アドバイス等は特にありません。引き続き先生に提出をお願いします。
+
+[comment #20200728 sonoda]
+- 課題4の完了を確認しました
